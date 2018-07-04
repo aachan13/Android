@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/titleRemarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name:"
+        android:layout_margin="8dp"/>
+
+
+    <EditText
+        android:id="@+id/edtTitleRemarks"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="8dp"
+        android:text="Write event here" />
+
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text="Pick a date"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"/>
+
+
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:text="Pick a time"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+           />
+
+
+
+
+
+    <Button
+        android:id="@+id/ButtonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"/>
+
+    </LinearLayout>

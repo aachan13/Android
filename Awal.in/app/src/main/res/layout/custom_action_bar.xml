@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/logmark"
+        android:layout_toRightOf="@id/logo"
+      android:gravity="center_vertical"
+        android:fontFamily="cursive"
+        android:text="Awal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:id="@+id/buttonAddCalendar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_action_addcalendar" />
+
+</RelativeLayout>
+
+
